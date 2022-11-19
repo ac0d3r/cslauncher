@@ -1,0 +1,14 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleName</key><string>cslauncher</string>
+	<key>CFBundleExecutable</key><string>cslauncher</string>
+	<key>CFBundleIdentifier</key><string>app.cslauncher</string>
+	<key>CFBundleVersion</key><string>0.0.1</string>
+	<key>CFBundleGetInfoString</key><string>Cobalt Strike Launcher on macOS - zznQ</string>
+	<key>CFBundleShortVersionString</key><string>0.0.1</string>
+	<key>CFBundleIconFile</key><string>Appicon</string>
+	<key>NSHighResolutionCapable</key><string>true</string>
+	<key>LSMinimumSystemVersion</key><string>10.13.0</string>
+	<key>NSHumanReadableCopyright</key><string>zznQ</string>
+</dict></plist>
