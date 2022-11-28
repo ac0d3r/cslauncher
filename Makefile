@@ -4,6 +4,10 @@ cslauncher:
 	upx cslauncher_amd64
 	lipo -create cslauncher_amd64 cslauncher_arm64  -output cslauncher
 	rm cslauncher_amd64 cslauncher_arm64
+	# TODO
+	# 查看自己证书签名 security find-identity -v -p codesigning
+	# 先替换签名{XXX} & 启用强化运行时
+	# codesign --options runtime -s "Apple Development: {XXX}" cslauncher
 	
 	mkdir build/cslauncher.app
 	mkdir build/cslauncher.app/Contents
